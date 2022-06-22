@@ -5,30 +5,16 @@
 	<parent>
 		<groupId>com.josdugan</groupId>
 		<artifactId>beer-works-bom</artifactId>
-		<version>0.0.5-SNAPSHOT</version>
+		<version>0.0.6-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<groupId>com.josdugan</groupId>
 	<artifactId>brewery-bom</artifactId>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>0.0.8-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>brewery-bom</name>
 	<description>Demo project for Spring Boot</description>
-
-	<properties>
-		<beer-works-common.version>0.0.3-SNAPSHOT</beer-works-common.version>
-	</properties>
-
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>com.josdugan</groupId>
-				<artifactId>beer-works-common</artifactId>
-				<version>${beer-works-common.version}</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 
 	<dependencies>
 		<dependency>
