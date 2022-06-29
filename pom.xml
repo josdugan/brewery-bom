@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>com.josdugan</groupId>
 		<artifactId>beer-works-bom</artifactId>
-		<version>0.0.9-SNAPSHOT</version>
+		<version>0.0.10-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<groupId>com.josdugan</groupId>
 	<artifactId>brewery-bom</artifactId>
-	<version>0.0.12-SNAPSHOT</version>
+	<version>0.0.13-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>brewery-bom</name>
 	<description>Demo project for Spring Boot</description>
