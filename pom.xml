@@ -11,7 +11,7 @@
 
 	<groupId>com.josdugan</groupId>
 	<artifactId>brewery-bom</artifactId>
-	<version>0.0.18-SNAPSHOT</version>
+	<version>0.0.19-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>brewery-bom</name>
 	<description>Demo project for Spring Boot</description>
@@ -110,6 +110,10 @@
 		<dependency>
 			<groupId>com.josdugan</groupId>
 			<artifactId>beer-works-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>net.logstash.logback</groupId>
+			<artifactId>logstash-logback-encoder</artifactId>
 		</dependency>
 
 		<dependency>
